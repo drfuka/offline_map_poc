@@ -69,7 +69,7 @@ function downloadFile(urls, index, dirPath, progressModal, progressBar, callback
         function(theFile) { 
             downloadFile(urls, index+1, dirPath, progressModal, progressBar, callback);
         },
-        function(error) { alert("download error code: " + error.code); }
+        function(error) { alert("download error code: " + error.code + urls); }
     );    
 }
 
