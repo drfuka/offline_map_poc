@@ -30,7 +30,7 @@ function reloadMap(options) {
         MAP = L.map('map', {
             'minZoom': 3,
             'maxZoom': 17
-        }).setView([38.255, -85.73], 15);
+        }).setView([38.2366, -79.0013], 15);
     }
     
     //clear out old MAP_CONTROL

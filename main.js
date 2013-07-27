@@ -51,7 +51,7 @@ $(document).ready(function() {
             var mapboxIDs = getMapIDs();
             if (mapboxIDs == null) { alert("Enter a MapBox Map ID"); return; } //no ids
             fileUtils.bulkDownload(
-               tileUtils.pyramid(mapboxIDs, 38.255, -85.73, {}), //tile urls
+               tileUtils.pyramid(mapboxIDs, 38.2366, -79.0013, {}), //tile urls
                'tiles',
                $("#progress_modal"),
                function() { 
