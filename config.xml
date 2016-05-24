@@ -6,7 +6,7 @@
     versionCode = "1"
     >
     
-    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="phonegap-version" value="5.2.0" />
     <preference name="orientation" value="portrait" />
 
     <name>Offline Mapping</name>
